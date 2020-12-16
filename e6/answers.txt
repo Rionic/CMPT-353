@@ -1,0 +1,5 @@
+1. No because we are only doing four tests which isn't that many. I would not be comfortable coming to a conclusion of p < 0.05 for any of the tests except the one for the question of 'Did instructors search more/less' because that is the only test with p < 0.05.
+
+2. We would have done 21 T-tests between each algorithm. The chance of having any false conclusions over these tests is 0.95^21 = 0.341.
+
+3. The fastest algorithms in descending order are: partition_sort, qs1, qs4, qs3, qs2, qs5, merge1. The pairs of algorithms we could not make conclusions about are (qs2, qs3), (qs2, qs4), (qs2, qs5), (qs3, qs4), and (qs3, qs5).

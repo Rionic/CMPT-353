@@ -1,0 +1,8 @@
+1. In your reddit_relative.py, what intermediate results did you .cache()? Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+
+Every time I reused a dataframe, I made sure to cache that dataframe beforehand. If I didn't use .cache(), then spark would have to re-evaluate this dataframe from the beginning.
+
+2. How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+
+No broadcast: 0m54.202s
+Broadcast: 0m44.413s

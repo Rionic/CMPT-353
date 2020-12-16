@@ -1,0 +1,8 @@
+1. Where you did the same calculations with NumPy and Pandas, which did you find easier to work with? Which code do you think is easier to read?
+
+I found it easier to work with NumPy primarily because I've used it before. That being said, I was able to finish the Pandas section far faster but only because of how the question had the same format as the NumPy one. Both libraries seem equally easier to read, but if I had to pick one it'd probably be NumPy.
+
+
+2. What were the running times of the two pivot_months_* functions? How can you explain the difference?
+
+My function had a running time of 53ms +/- 5.19ms per loop whereas the loop function had a running time of 1190ms +/- 133ms per loop. The difference is due to the fact that Pandas is optimized to handle these kind of operations and probably uses some pretty clever heuristics and algorithms in the background to speed up operations. Python has a wide range of uses and the creators likely didn't put as much effort into speeding up array/table operations as much as the creators of an array/table based library did. On the more technical side, Pandas uses something called vectorization which allows it to perform multiple operations concurrently, whereas a Python for loop does each operation one-by-one.

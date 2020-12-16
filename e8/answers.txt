@@ -1,0 +1,7 @@
+1. Which model did the best for the colour-prediction task? Can you give a theory about why? Do you have any theory about why RGB/LAB/HSV worked better for different models?
+
+kNN with LAB colors did the best. I believe this is because of how kNN uses the nearest points to determine what color word the point will be. This can be quite accurate due to how close a given color point is to its other points on a plot. I believe LAB worked better because it's easier to perceive for the ML algorithm since it includes a lightness, red-green, and blue-yellow measure.
+
+2. Have a look at the cities in your validation data where the weather model makes the wrong prediction. Do you feel like the model is making reasonable mistakes? Can you think of any weather features that we could potentially add to make better predictions?
+
+Yes it is because the cities have similar features. Some weather features we can add to make better predictions are are wind speeds, storm patterns, UV indexes, atmospheric pressure, wind chill, and humidity.

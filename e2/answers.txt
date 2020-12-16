@@ -1,0 +1,7 @@
+1. In the hint above, what is the result of the calculation data['timestamp']*fit.slope + fit.intercept? What is the type, and describe the values.
+
+The result of the calculation is a best fit line which shows a trend of the prediction of the dog ratings overtime. The slope describes the rate at which the prediction is increasing or decreasing and the intercept describes when the best fit line hits x=0. The type for the line is a series of floats and the intercept and slope are both floats.
+
+2. In the same hint, why does this produce a fit line on the graph? Why are the created_at values and timestamp values paired correctly to make points on the plot?
+
+Data['timestamp'] is the created_at value converted to a numeric value that can be operated on. This value represents the number of seconds after some epoch. The two values are very similar. Since we have a series of numbers representing the seconds elapsed now, we can create a line of the form y=mx+b.

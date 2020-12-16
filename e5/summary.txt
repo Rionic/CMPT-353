@@ -1,0 +1,59 @@
+1.
+Mean for x:  8.717696186413818
+Mean for y:  12.522874034702589
+Standard deviation for x:  12.09458693659896
+Standard deviation for y:  6.606680770370137
+Range for x:  -22.635877790008944 , 35.23705548785129
+Range for y:  -2.5650878326932127 , 27.38415261152477
+Correlation coefficient:  0.9503256954375489
+The data set has a strong positive correlation with different means and stdevs.
+
+2.
+Mean for x:  -0.7107871267159582
+Mean for y:  -0.7489869764497992
+Standard deviation for x:  11.424031427941332
+Standard deviation for y:  6.226549791205469
+Range for x:  -33.2711130771198 , 27.6470003722073
+Range for y:  -18.621803760419066 , 14.147314992317481
+Correlation coefficient:  0.9551531665750372
+The data set has a strong positive correlation with similar means and different stdevs.
+
+3.
+Mean for x:  0.9689074904200942
+Mean for y:  8.50853523664133
+Standard deviation for x:  2.2318288211623574
+Standard deviation for y:  1.1473837107336815
+Range for x:  -2.4490643296742807 , 4.51888491755363
+Range for y:  6.641734490391762 , 10.551871022804317
+Correlation coefficient:  0.9819372646760665
+The data set has a strong positive correlation with different means and stdevs.
+
+4.
+Mean for x:  49.90508614830509
+Mean for y:  18.55383652542372
+Standard deviation for x:  28.38755430203193
+Standard deviation for y:  16.4756375419362
+Range for x:  0.0 , 87.3767
+Range for y:  0.0 , 44.56504
+Correlation coefficient:  -0.08119306735490817
+The data set has almost no correlation with different means and stdevs but the same minimum values.
+
+5.
+Mean for x:  49.90999357843096
+Mean for y:  18.55552493772909
+Standard deviation for x:  28.378981284825986
+Standard deviation for y:  16.470559057583237
+Range for x:  4.337892453674525 , 91.0528633396976
+Range for y:  0.05549750758115175 , 49.93419703633311
+Correlation coefficient:  -0.08823598983058882
+The data set has almost no correlation with different means and stdevs.
+
+6.
+Mean for x:  7.2161551796099195
+Mean for y:  7.6022150282372944
+Standard deviation for x:  11.861841302343018
+Standard deviation for y:  11.70541274804915
+Range for x:  -24.33382075234097 , 35.402138910929
+Range for y:  -22.9563569970746 , 36.07987403078143
+Correlation coefficient:  0.9350685662094907
+The data set has a strong positive correlation with similar means, stdevs, and ranges.
